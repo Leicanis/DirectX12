@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{806496B2-D92F-40FF-8CA7-25BACA952616}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Engine\Common\Common.vcxproj", "{D7577D36-A7B5-41C0-A9A3-3F85815671D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Platform", "Engine\Platform\Platform.vcxproj", "{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Engine\Renderer\Renderer.vcxproj", "{D76DEA20-FD39-4C74-842A-40D0F55B9006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Debug|x64.ActiveCfg = Debug|x64
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Debug|x64.Build.0 = Debug|x64
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Debug|x86.ActiveCfg = Debug|Win32
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Debug|x86.Build.0 = Debug|Win32
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Release|x64.ActiveCfg = Release|x64
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Release|x64.Build.0 = Release|x64
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Release|x86.ActiveCfg = Release|Win32
+		{806496B2-D92F-40FF-8CA7-25BACA952616}.Release|x86.Build.0 = Release|Win32
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Debug|x64.ActiveCfg = Debug|x64
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Debug|x64.Build.0 = Debug|x64
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Debug|x86.Build.0 = Debug|Win32
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Release|x64.ActiveCfg = Release|x64
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Release|x64.Build.0 = Release|x64
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Release|x86.ActiveCfg = Release|Win32
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3}.Release|x86.Build.0 = Release|Win32
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Debug|x64.ActiveCfg = Debug|x64
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Debug|x64.Build.0 = Debug|x64
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Debug|x86.Build.0 = Debug|Win32
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Release|x64.ActiveCfg = Release|x64
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Release|x64.Build.0 = Release|x64
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Release|x86.ActiveCfg = Release|Win32
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783}.Release|x86.Build.0 = Release|Win32
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Debug|x64.ActiveCfg = Debug|x64
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Debug|x64.Build.0 = Debug|x64
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Debug|x86.ActiveCfg = Debug|Win32
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Debug|x86.Build.0 = Debug|Win32
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Release|x64.ActiveCfg = Release|x64
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Release|x64.Build.0 = Release|x64
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Release|x86.ActiveCfg = Release|Win32
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7577D36-A7B5-41C0-A9A3-3F85815671D3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BD23DACB-DAB4-4CC3-9116-E4C0ABF65783} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D76DEA20-FD39-4C74-842A-40D0F55B9006} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7240C07D-604C-430A-80E7-E4F83D5FC04D}
+	EndGlobalSection
+EndGlobal
